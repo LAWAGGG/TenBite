@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <g stroke="#8a6a44" stroke-width="5" stroke-linejoin="round">
+    <!-- stroberi -->
+    <g fill="#d9322f">
+      <path d="M78 96c-14 0-24-10-24-24s10-26 24-26 24 12 24 26-10 24-24 24z" />
+      <path d="M126 88c-13 0-22-9-22-22s9-24 22-24 22 11 22 24-9 22-22 22z" />
+    </g>
+    <g fill="#4c8b3a" stroke-width="4">
+      <path d="M78 46l-12-10 16 2 6-10 6 10 16-2-12 10z" />
+      <path d="M126 42l-11-9 15 2 6-10 5 10 15-2-11 9z" />
+    </g>
+    <g fill="#f7e3b0" stroke="none">
+      <circle cx="70" cy="72" r="2.6" /><circle cx="86" cy="78" r="2.6" /><circle cx="80" cy="88" r="2.6" />
+      <circle cx="120" cy="66" r="2.4" /><circle cx="134" cy="72" r="2.4" />
+    </g>
+
+    <!-- keranjang -->
+    <path d="M40 96h160l-16 84c-1 8-8 12-16 12H72c-8 0-15-4-16-12z" fill="#c99a5b" />
+    <path d="M40 96h160" stroke-width="8" />
+    <g stroke="#a86f3a" stroke-width="4" fill="none">
+      <path d="M56 96v96M80 96v96M104 96v96M128 96v96M152 96v96M176 96v96" />
+      <path d="M48 128h144M52 160h136" />
+    </g>
+    <!-- pegangan -->
+    <path d="M84 96c0-30 16-44 36-44s36 14 36 44" fill="none" stroke="#8a6a44" stroke-width="9" stroke-linecap="round" />
+  </g>
+</svg>

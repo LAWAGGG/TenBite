@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".38" r=".8">
+      <stop offset="0" stop-color="#fff6e6" />
+      <stop offset="1" stop-color="#e7cfa6" />
+    </radialGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9682f" />
+      <stop offset="1" stop-color="#5c3413" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".75" />
+      <stop offset=".35" stop-color="#ffffff" stop-opacity=".12" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".55" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <ellipse cx="200" cy="330" rx="106" ry="22" fill="#a97c46" opacity=".3" />
+
+  <!-- gelas -->
+  <g stroke="#8a5220" stroke-width="5" stroke-linejoin="round">
+    <path d="M124 116h152l-16 208c-1 10-9 18-19 18h-82c-10 0-18-8-19-18z" fill="#f7ecd6" />
+    <path d="M132 152h136l-13 168c-1 8-7 14-15 14h-80c-8 0-14-6-15-14z" fill="url(#drink)" stroke="none" />
+  </g>
+
+  <!-- jelly lumut -->
+  <g fill="#7cb342" stroke="#4c8b3a" stroke-width="4">
+    <rect x="152" y="196" width="34" height="30" rx="7" transform="rotate(-12 169 211)" />
+    <rect x="208" y="182" width="34" height="30" rx="7" transform="rotate(16 225 197)" />
+    <rect x="172" y="252" width="34" height="30" rx="7" transform="rotate(8 189 267)" />
+    <rect x="228" y="244" width="30" height="27" rx="7" transform="rotate(-18 243 257)" />
+  </g>
+
+  <!-- es batu -->
+  <g fill="#ffffff" opacity=".38" stroke="none">
+    <rect x="136" y="164" width="30" height="26" rx="6" transform="rotate(-8 151 177)" />
+    <rect x="238" y="172" width="28" height="24" rx="6" transform="rotate(12 252 184)" />
+  </g>
+
+  <!-- pantulan kaca -->
+  <path d="M140 140l10 0-12 176-8 0z" fill="url(#glass)" stroke="none" />
+
+  <!-- sedotan -->
+  <g stroke="#d9322f" stroke-width="13" stroke-linecap="round">
+    <path d="M246 118l-22 118" />
+  </g>
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M240 134l-3 16M234 158l-3 16M228 182l-3 16" />
+  </g>
+
+  <!-- tutup gelas -->
+  <g stroke="#8a5220" stroke-width="5">
+    <ellipse cx="200" cy="116" rx="78" ry="16" fill="#fdf6e6" />
+  </g>
+
+  <!-- tetes kondensasi -->
+  <g fill="#ffffff" opacity=".55" stroke="none">
+    <circle cx="150" cy="228" r="4" />
+    <circle cx="246" cy="256" r="4" />
+    <circle cx="162" cy="300" r="3" />
+  </g>
+</svg>

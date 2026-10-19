@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".38" r=".8">
+      <stop offset="0" stop-color="#fff6e4" />
+      <stop offset="1" stop-color="#e6c99c" />
+    </radialGradient>
+    <linearGradient id="crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0b46e" />
+      <stop offset="1" stop-color="#c07227" />
+    </linearGradient>
+    <linearGradient id="crust2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c684" />
+      <stop offset="1" stop-color="#cf8033" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <ellipse cx="200" cy="268" rx="132" ry="26" fill="#a97c46" opacity=".28" />
+
+  <g transform="translate(200 196) scale(1.22) translate(-200 -196)">
+  <g stroke="#8a5220" stroke-width="5" stroke-linejoin="round">
+    <g transform="rotate(-20 200 200)">
+      <g transform="translate(72 138)">
+        <rect width="150" height="46" rx="23" fill="url(#crust)" />
+        <ellipse cx="150" cy="23" rx="13" ry="23" fill="#f9e3b6" />
+        <path d="M150 5c9 6 9 30 0 36M159 9c7 6 7 22 0 28M141 6c6 5 6 29 0 34" fill="none" stroke="#cda36a" stroke-width="4" />
+      </g>
+      <g transform="translate(138 226)">
+        <rect width="150" height="46" rx="23" fill="url(#crust2)" />
+        <ellipse cx="150" cy="23" rx="13" ry="23" fill="#f9e3b6" />
+        <path d="M150 5c9 6 9 30 0 36M159 9c7 6 7 22 0 28M141 6c6 5 6 29 0 34" fill="none" stroke="#cda36a" stroke-width="4" />
+      </g>
+      <g transform="translate(94 108)">
+        <rect width="150" height="46" rx="23" fill="url(#crust2)" />
+        <ellipse cx="150" cy="23" rx="13" ry="23" fill="#f9e3b6" />
+        <path d="M150 5c9 6 9 30 0 36M159 9c7 6 7 22 0 28M141 6c6 5 6 29 0 34" fill="none" stroke="#cda36a" stroke-width="4" />
+      </g>
+      <g transform="translate(160 196)">
+        <rect width="150" height="46" rx="23" fill="url(#crust)" />
+        <ellipse cx="150" cy="23" rx="13" ry="23" fill="#f9e3b6" />
+        <path d="M150 5c9 6 9 30 0 36M159 9c7 6 7 22 0 28M141 6c6 5 6 29 0 34" fill="none" stroke="#cda36a" stroke-width="4" />
+      </g>
+    </g>
+  </g>
+
+  <!-- wijen -->
+  <g fill="#fdf1d4" opacity=".9">
+    <ellipse cx="140" cy="150" rx="4" ry="3" />
+    <ellipse cx="196" cy="176" rx="4" ry="3" />
+    <ellipse cx="176" cy="256" rx="4" ry="3" />
+    <ellipse cx="256" cy="222" rx="4" ry="3" />
+  </g>
+  <!-- cabai -->
+  <g fill="#d9322f">
+    <path d="M232 140c10-3 16 4 14 10-3 7-14 6-17-1z" />
+    <path d="M120 218c10-3 16 4 14 10-3 7-14 6-17-1z" />
+    <path d="M266 292c9-3 15 4 13 9-3 6-13 5-16-1z" />
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".38" r=".8">
+      <stop offset="0" stop-color="#fff6e6" />
+      <stop offset="1" stop-color="#e7cfa6" />
+    </radialGradient>
+    <linearGradient id="bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c079" />
+      <stop offset="1" stop-color="#c07f2c" />
+    </linearGradient>
+    <linearGradient id="saus" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d97b56" />
+      <stop offset="1" stop-color="#9e4426" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <ellipse cx="200" cy="300" rx="140" ry="26" fill="#a97c46" opacity=".3" />
+
+  <g stroke="#8a5220" stroke-width="5" stroke-linejoin="round">
+    <g transform="rotate(-14 200 200)">
+      <!-- roti gulung -->
+      <rect x="72" y="164" width="256" height="86" rx="43" fill="url(#bread)" />
+
+      <!-- sosis di kedua ujung -->
+      <ellipse cx="72" cy="207" rx="18" ry="43" fill="url(#saus)" />
+      <ellipse cx="328" cy="207" rx="18" ry="43" fill="url(#saus)" />
+      <ellipse cx="72" cy="207" rx="8" ry="24" fill="#c26440" stroke-width="4" />
+      <ellipse cx="328" cy="207" rx="8" ry="24" fill="#c26440" stroke-width="4" />
+    </g>
+  </g>
+
+  <g transform="rotate(-14 200 200)">
+    <!-- alur gulungan -->
+    <g stroke="#a86a22" stroke-width="4" fill="none" opacity=".8">
+      <path d="M112 168c14 26 14 52 0 78" />
+      <path d="M172 164c16 28 16 58 0 86" />
+      <path d="M232 164c16 28 16 58 0 86" />
+      <path d="M286 168c13 26 13 52 0 78" />
+    </g>
+    <!-- kilau -->
+    <g fill="#ffe0ab" opacity=".65" stroke="none">
+      <ellipse cx="140" cy="186" rx="20" ry="7" transform="rotate(-8 140 186)" />
+      <ellipse cx="252" cy="222" rx="18" ry="6" transform="rotate(-8 252 222)" />
+    </g>
+  </g>
+
+  <!-- wijen -->
+  <g fill="#fdf1d4" opacity=".95" stroke="none">
+    <ellipse cx="132" cy="150" rx="4.5" ry="3.2" transform="rotate(-14 132 150)" />
+    <ellipse cx="204" cy="140" rx="4.5" ry="3.2" transform="rotate(-14 204 140)" />
+    <ellipse cx="272" cy="150" rx="4.5" ry="3.2" transform="rotate(-14 272 150)" />
+    <ellipse cx="168" cy="266" rx="4.5" ry="3.2" transform="rotate(-14 168 266)" />
+    <ellipse cx="240" cy="272" rx="4.5" ry="3.2" transform="rotate(-14 240 272)" />
+  </g>
+
+  <!-- saus -->
+  <path
+    d="M156 132c22-10 46 2 44 16-2 12-24 14-36 6-10-6-16-16-8-22z"
+    fill="#d9322f"
+    stroke="#8a1f1d"
+    stroke-width="4"
+  />
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9dcf0" />
+      <stop offset=".5" stop-color="#e6efd6" />
+      <stop offset="1" stop-color="#f6e6c0" />
+    </linearGradient>
+    <radialGradient id="sun" cx=".78" cy=".14" r=".4">
+      <stop offset="0" stop-color="#ffeaa6" stop-opacity=".85" />
+      <stop offset="1" stop-color="#ffeaa6" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93bd6d" />
+      <stop offset="1" stop-color="#5c873d" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <rect width="1200" height="800" fill="url(#sun)" />
+
+  <!-- kanopi pohon jauh -->
+  <g fill="#7ba757" opacity=".5">
+    <circle cx="90" cy="290" r="160" />
+    <circle cx="265" cy="235" r="195" />
+    <circle cx="430" cy="300" r="150" />
+    <circle cx="950" cy="265" r="180" />
+    <circle cx="1130" cy="330" r="155" />
+  </g>
+
+  <!-- kanopi lebih dekat, sedikit lebih gelap -->
+  <g fill="#5f8a3f" opacity=".45">
+    <circle cx="175" cy="360" r="120" />
+    <circle cx="350" cy="330" r="140" />
+    <circle cx="1010" cy="360" r="130" />
+    <circle cx="1180" cy="400" r="115" />
+  </g>
+
+  <!-- batang pohon -->
+  <g stroke="#8a6a44" stroke-width="26" stroke-linecap="round" fill="none" opacity=".55">
+    <path d="M265 340v220" />
+    <path d="M1005 330v225" />
+  </g>
+
+  <!-- rumput -->
+  <path d="M0 545c150-42 290 26 440 6s260-52 420-30 220 40 340 24v255H0z" fill="url(#grass)" />
+
+  <!-- goresan rumput yang lebih terang -->
+  <g stroke="#a8ce80" stroke-width="7" stroke-linecap="round" opacity=".5" fill="none">
+    <path d="M120 700v-46M200 730v-58M300 690v-40M420 726v-52M540 692v-44M660 730v-56M780 694v-42M900 728v-54M1020 692v-44M1120 722v-50" />
+  </g>
+
+  <!-- bunga kecil -->
+  <g opacity=".75">
+    <circle cx="360" cy="646" r="9" fill="#fbe6c4" />
+    <circle cx="760" cy="676" r="8" fill="#f7d872" />
+    <circle cx="980" cy="632" r="9" fill="#fbe6c4" />
+    <circle cx="180" cy="700" r="7" fill="#f7d872" />
+  </g>
+</svg>

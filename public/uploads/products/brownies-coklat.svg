@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".38" r=".8">
+      <stop offset="0" stop-color="#fff5e6" />
+      <stop offset="1" stop-color="#e6cba1" />
+    </radialGradient>
+    <linearGradient id="cake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f4423" />
+      <stop offset="1" stop-color="#3f2411" />
+    </linearGradient>
+    <linearGradient id="cake2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5528" />
+      <stop offset="1" stop-color="#4c2c15" />
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a4652f" />
+      <stop offset="1" stop-color="#5a3317" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <ellipse cx="200" cy="316" rx="140" ry="26" fill="#a97c46" opacity=".3" />
+
+  <g stroke="#2f1a0c" stroke-width="5" stroke-linejoin="round">
+    <!-- brownies bawah -->
+    <path d="M84 232h224v60a14 14 0 0 1-14 14H98a14 14 0 0 1-14-14z" fill="url(#cake)" />
+    <!-- brownies tengah -->
+    <path d="M100 176h192v58a14 14 0 0 1-14 14H114a14 14 0 0 1-14-14z" fill="url(#cake2)" />
+    <!-- brownies atas -->
+    <path d="M116 118h160v60a14 14 0 0 1-14 14H130a14 14 0 0 1-14-14z" fill="url(#gloss)" />
+  </g>
+
+  <!-- permukaan glossy -->
+  <g fill="#c07a3c" opacity=".55" stroke="none">
+    <ellipse cx="164" cy="140" rx="24" ry="9" transform="rotate(-10 164 140)" />
+    <ellipse cx="228" cy="160" rx="18" ry="7" transform="rotate(12 228 160)" />
+  </g>
+
+  <!-- lelehan cokelat -->
+  <g fill="#2f1a0c" stroke="none">
+    <path d="M116 172c8 0 10 10 18 10s10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12v10H116z" />
+    <path d="M84 228c8 0 10 10 18 10s10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12 10-12 18-12 10 12 18 12v10H84z" />
+  </g>
+
+  <!-- remah -->
+  <g fill="#4c2c15" opacity=".8" stroke="none">
+    <circle cx="112" cy="330" r="5" />
+    <circle cx="292" cy="322" r="4" />
+    <circle cx="286" cy="340" r="3" />
+    <circle cx="126" cy="344" r="3" />
+  </g>
+
+  <!-- kacang almond -->
+  <g fill="#f0d9a8" stroke="#a9773c" stroke-width="4">
+    <ellipse cx="150" cy="106" rx="14" ry="9" transform="rotate(-22 150 106)" />
+    <ellipse cx="228" cy="98" rx="13" ry="8" transform="rotate(18 228 98)" />
+    <ellipse cx="196" cy="112" rx="12" ry="8" transform="rotate(-6 196 112)" />
+  </g>
+</svg>

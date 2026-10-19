@@ -25,4 +25,4 @@ dist-ssr
 
 .opencode/
 config/
-docs/
+docs/*

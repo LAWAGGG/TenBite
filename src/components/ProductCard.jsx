@@ -117,7 +117,7 @@ export function ProductCard({ product, index = 0, storeOpen = true, onAdd }) {
             aria-label={`Lihat detail ${product.nama}`}
             className="inline-flex min-h-11 flex-1 items-center justify-center rounded-lg border-2 border-olive bg-cream px-4 py-2.5 font-round text-sm font-semibold text-olive-dark transition hover:bg-cream-dark sm:text-base"
           >
-            Detail
+            Beli
           </Link>
         </div>
       </div>

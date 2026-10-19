@@ -26,3 +26,4 @@ dist-ssr
 .opencode/
 config/
 docs/*
+.env
